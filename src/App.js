@@ -4,12 +4,17 @@ import Card from "./components/Card.js"
 
 function App() {
   const [score,setScore] = useState({});
+  const [bestScore,setBestScore] = useState({});
+
   //add cards as objects with names and img
   return (
     <div className="App">
-      <div>
-        <div>title</div>
-        <div>score/best score</div>
+      <div id="top-header">
+        <div id="title">POKEMON MEMORY GAME</div>
+        <div id="score">
+          <div>score: {score} </div>
+          <div>best score: {bestScore} </div>
+        </div>
       </div>
       --display cards here--
       --clicking on card shuffles them randomly and remembers card clicked--

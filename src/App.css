@@ -48,3 +48,24 @@
   place-items: center;
   place-content: center;
 }
+#title{
+  font-family: pokemon_hollownormal;
+  font-size: 3rem;
+}
+#top-header{
+  display:flex;
+}
+#score{
+  position:fixed;
+  right: 0px;
+  text-align:right;
+}
+
+@font-face {
+  font-family: 'pokemon_hollownormal';
+  src: url('./fonts/pokemon_hollow-webfont.woff2') format('woff2'),
+       url('./fonts/pokemon_hollow-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
