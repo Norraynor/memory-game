@@ -16,6 +16,14 @@ function App() {
       --clicking the same card twice results in game over and reseting the score and saving best score if its bigger than previous one--
       <div id="cards">
         <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+
       </div>
 
     </div>
