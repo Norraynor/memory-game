@@ -1,10 +1,23 @@
 .card{
     width:100%;
     height: 100%;
-    background-color: brown;
-
+    border-style: solid;
+    border-width: 2px;
 }
-.card image{
-    width:80%;
+.card img{
+    width:50%;
     height:auto;
 }
+.card #title{
+    font-family: pokemon_hollownormal;
+    font-size: 1.5rem;
+    margin: 0
+}
+
+@font-face {
+    font-family: 'pokemon_hollownormal';
+    src: url('../fonts/pokemon_hollow-webfont.woff2') format('woff2'),
+         url('../fonts/pokemon_hollow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
